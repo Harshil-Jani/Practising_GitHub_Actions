@@ -1,0 +1,24 @@
+{
+  "name": "practising_github_actions",
+  "version": "1.0.0",
+  "description": "Practising GitHub Actions and workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rameshchandrapola/Practising_GitHub_Actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rameshchandrapola/Practising_GitHub_Actions/issues"
+  },
+  "homepage": "https://github.com/Rameshchandrapola/Practising_GitHub_Actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
