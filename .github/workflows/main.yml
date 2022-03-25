@@ -2,14 +2,14 @@ on: [push]
 
 jobs:
   hello_world_job:
+  
     runs-on: ubuntu-latest
+  
     name: A job to say hello
     steps:
+
     - name: Hello world action step
       id: hello
-#       uses: Rameshchandrapola/Practising_GitHub_Actions@v1
-      with:
-        who-to-greet: 'Rameshchandra'
-    # Use the output from the `hello` step
+      run: echo "Hello Ramesh ! Howdy !"
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
